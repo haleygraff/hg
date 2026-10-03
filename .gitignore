@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+dist/
+build/
+.env*
+*.p8
+*.p12
+*.mobileprovision
+*.key
+*.mp4
+*.mov
+ios/
+android/
+*.tsbuildinfo

@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Respiratory Research",
+    "slug": "respiratory-research",
+    "version": "0.1.0",
+    "scheme": "respiratory-research",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": ["expo-router", "expo-sqlite"],
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.haleygraff.respiratoryresearch" },
+    "android": { "package": "com.haleygraff.respiratoryresearch" }
+  }
+}
