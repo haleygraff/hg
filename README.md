@@ -25,7 +25,7 @@ Open the QR code in Expo Go on a physical iPhone with matching SDK support. The 
 
 GitHub Actions checks types, tests core logic, verifies Expo dependencies, and exports the iOS JavaScript bundle. That export is a build check, not an installable iPhone app.
 
-`eas.json` includes preview and production build profiles. A signed iPhone build still requires linking this project to the owner's Expo account, registering the device for internal distribution, and Apple signing access. No Expo project ID, credentials, signing certificates, or secrets are included. Public App Store submission has not been performed.
+`eas.json` includes preview and production build profiles. The app is linked to the owner's Expo project at https://expo.dev/accounts/haleygraffs-team/projects/respiratory-research. A signed iPhone build still requires repository connection, registering the device for internal distribution, and Apple signing access. No credentials, signing certificates, or secrets are included. Public App Store submission has not been performed.
 
 ## Project layout
 
