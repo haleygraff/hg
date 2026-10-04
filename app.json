@@ -2,6 +2,8 @@
   "expo": {
     "name": "Respiratory Research",
     "slug": "respiratory-research",
+    "owner": "haleygraffs-team",
+    "extra": { "eas": { "projectId": "7b8e9289-22a7-4fcc-a722-5f962ce05e3a" } },
     "version": "0.1.0",
     "scheme": "respiratory-research",
     "orientation": "portrait",
