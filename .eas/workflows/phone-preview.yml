@@ -1,0 +1,16 @@
+name: Publish phone preview
+on:
+  workflow_dispatch:
+jobs:
+  publish_preview:
+    name: Verify and publish Expo Go preview
+    type: update
+    environment: preview
+    params:
+      branch: phone-preview
+      platform: ios
+      message: Simulated respiratory research prototype
+    hooks:
+      before_update:
+        - run: npm run typecheck
+        - run: npm test

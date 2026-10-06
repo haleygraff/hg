@@ -5,6 +5,8 @@
     "owner": "haleygraffs-team",
     "extra": { "eas": { "projectId": "7b8e9289-22a7-4fcc-a722-5f962ce05e3a" } },
     "version": "0.1.0",
+    "sdkVersion": "57.0.0",
+    "updates": { "url": "https://u.expo.dev/7b8e9289-22a7-4fcc-a722-5f962ce05e3a" },
     "scheme": "respiratory-research",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
